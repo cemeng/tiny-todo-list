@@ -7,4 +7,4 @@ test:
 production:
   adapter: redis
   url: redis://localhost:6379/1
-  channel_prefix: trineo_todo_api_production
+  channel_prefix: acme_todo_api_production

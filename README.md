@@ -1,7 +1,7 @@
-Trineo Todo API
+ACME Todo API
 ===============
 
-This is the Trineo Todo API.  This API is deployed for the fictional Death
+This is the ACME Todo API.  This API is deployed for the fictional Death
 Star Corp who use it to manage pending work.  The most prominent user is
 the chief engineer in the exhaust ports department, who has 5000 todos and
 25,000 items on his todo list.
@@ -32,7 +32,7 @@ $ rake spec
 
 The API is quite simple, it represents Todos, and each Todo has many items
 
-![Trineo Todo API ERD](doc/erd.png)
+![ACME Todo API ERD](doc/erd.png)
 
 Usage
 -----
