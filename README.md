@@ -93,3 +93,6 @@ $ curl -X PATCH -d 'completed=true' http://localhost:3000/todos/1/items/1
    "completed" : true
 }
 ```
+
+# Delete an item
+$ curl -X DELETE http://localhost:3000/todos/1/items/1

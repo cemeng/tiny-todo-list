@@ -23,6 +23,12 @@ RSpec.describe 'todos' do
       expect(response).to be_success
     end
 
+    describe 'response body' do
+      it 'contains completed flag' do
+        get "/todos/#{todo.to_param}"
+        expect(parsed_body).to have_key 'completed'
+      end
+    end
   end
 
   describe 'POST /todos' do
